@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Com Tailwind</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="HTML E CSS.png" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(wallpaper.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+        #fundo-azul{
+            background-color: rgba(0, 0, 255, 0.512);
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin-top: 50px;
+            box-shadow: 4px 4px 4px 4px rgba(0, 0, 255, 0.463);
+            
+        }
+</style>
 </head>
-<body>
-    <h1 class="bg-slate-200">Testando</h1>
+<body class="h-screen w-screen ">
+    <div id="fundo-azul" class="w-6 py-8 px-48 rounded  mt-10 flex-nowrap">
+        <div>
+            <form>
+                <img src="HTML E CSS.png" alt="">
+                            
+                <h2>01 O que significa HTML</h2>
+                <ul> <!--Arrumar Isso-->
+                    <li>1 Opção 1</li>
+                    <li>2 Opção 2</li>
+                    <li>3 Opção 3</li>
+                    <li>4 Opção 4</li>
+                </ul>
+                <input class=" rounded border-2 shadow-sm shadow-purple-700" type="text"
+                placeholder="Resposta">
+            
+            </form>
+        </div>
+    </div>
 </body>
 </html>
